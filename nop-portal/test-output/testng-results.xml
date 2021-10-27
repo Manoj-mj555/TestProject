@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="112752" started-at="2021-10-21T18:00:09 IST" finished-at="2021-10-21T18:02:02 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="36701" started-at="2021-10-21T18:00:09 IST" finished-at="2021-10-21T18:00:45 IST">
+      <class name="Testpackage.LoginAmazon">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:Testpackage.LoginAmazon@cb51256]" name="Test" is-config="true" duration-ms="21040" started-at="2021-10-21T18:00:09 IST" finished-at="2021-10-21T18:00:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Testpackage.LoginAmazon@cb51256]" name="login" is-config="true" duration-ms="6447" started-at="2021-10-21T18:00:30 IST" finished-at="2021-10-21T18:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="set()[pri:0, instance:Testpackage.LoginAmazon@cb51256]" name="set" is-config="true" duration-ms="7615" started-at="2021-10-21T18:00:36 IST" finished-at="2021-10-21T18:00:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="check()[pri:0, instance:Testpackage.LoginAmazon@cb51256]" name="check" duration-ms="49" started-at="2021-10-21T18:00:44 IST" finished-at="2021-10-21T18:00:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testpackage.LoginAmazon@cb51256]" name="close" is-config="true" duration-ms="1340" started-at="2021-10-21T18:00:44 IST" finished-at="2021-10-21T18:00:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testpackage.LoginAmazon -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="75439" started-at="2021-10-21T18:00:46 IST" finished-at="2021-10-21T18:02:02 IST">
+      <class name="Testpackage.LoginAmazon">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:Testpackage.LoginAmazon@7a30d1e6]" name="Test" is-config="true" duration-ms="37238" started-at="2021-10-21T18:00:46 IST" finished-at="2021-10-21T18:01:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Testpackage.LoginAmazon@7a30d1e6]" name="login" is-config="true" duration-ms="25210" started-at="2021-10-21T18:01:23 IST" finished-at="2021-10-21T18:01:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="set()[pri:0, instance:Testpackage.LoginAmazon@7a30d1e6]" name="set" is-config="true" duration-ms="3170" started-at="2021-10-21T18:01:49 IST" finished-at="2021-10-21T18:01:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="check()[pri:0, instance:Testpackage.LoginAmazon@7a30d1e6]" name="check" duration-ms="11" started-at="2021-10-21T18:01:52 IST" finished-at="2021-10-21T18:01:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testpackage.LoginAmazon@7a30d1e6]" name="close" is-config="true" duration-ms="9807" started-at="2021-10-21T18:01:52 IST" finished-at="2021-10-21T18:02:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testpackage.LoginAmazon -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
