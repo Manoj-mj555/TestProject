@@ -53,6 +53,8 @@ public class LoginTest extends BaseFunction {
 	
 	public void  setup() {
 		driver.get("https://www.nopcommerce.com/en");
+		SoftAssert soft= new SoftAssert();
+		soft.assertEquals(A,A)
 	}
 	
 	@Test
